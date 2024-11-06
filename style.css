@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(120, 168, 156); */
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+body::-webkit-scrollbar{
+    -webkit-appearance: none;
+    scrollbar-width: none;
+}
+.main{
+    height: 80vmin;
+    width: 100vmin;
+    background: transparent;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10rem black;
+    backdrop-filter: blur(5px);
+    
+    
+   
+    
+}
+.buttons{
+
+    background: transparent;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+button{
+    /* text-align: center; */
+    
+    color: rgb(31, 59, 52);
+    width: 15vmin;
+    height: 8vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 0  0.5rem rgb(30, 44, 41);;
+    box-shadow: inset 0 0 0.5rem black;
+    cursor: pointer;
+}
+.main input{
+    display: flex;
+    justify-content: right baseline;
+    color: black;
+    width: 85%;
+    height: 12vmin;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 38px;
+    border: none;
+    text-align: right;
+    box-shadow: inset 0 0 1rem black;
+    border-radius: 10px;
+    padding-right: 10px;
+
+}

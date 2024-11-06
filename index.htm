@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>CALCULATOR</h1> -->
+    <div class="main">
+        <input type="text" id="result" >
+        <div class="buttons">
+            <button onclick="appendchar('**')" style="font-size: 30px;">pow</button>
+            <button onclick="sin1()" style="font-size: 30px;">sin</button>
+            <button onclick="cos1()" style="font-size: 30px;">cos</button>
+            <button onclick="tan1()" style="font-size: 30px;">tan</button>
+            <button onclick="log1()" style="font-size: 30px;">log</button>
+
+            <button onclick="sqrt1(document.getElementById('result').value)" style="font-size: 30px;">sqrt</button>
+            <button onclick="allclear()" style="font-size: 30px; color: rgb(255, 136, 0);">AC</button>
+            <button onclick="oneclear()" style="font-size: 30px;"><i class="fa-solid fa-delete-left fa-lg " style="color: rgb(255, 136, 0);"></i></button>
+            <button onclick="appendchar('%')" style="color: rgb(255, 136, 0);">%</button>
+            <button onclick="appendchar('/')" style="color: rgb(255, 136, 0);"><i class="fa-solid fa-divide"></i></button>
+
+            <button onclick="fact1()" style="font-size: 30px;">fact</button>
+            <button onclick="appendchar('7')">7</button>
+            <button onclick="appendchar('8')">8</button>
+            <button onclick="appendchar('9')">9</button>
+            <button onclick="appendchar('*')" style="color: rgb(255, 136, 0);"><i class="fa-solid fa-xmark"></i></button>
+
+            <button onclick="rec1()" style="font-size: 30px;">1/x</button>
+            <button onclick="appendchar('4')">4</button>
+            <button onclick="appendchar('5')">5</button>
+            <button onclick="appendchar('6')">6</button>
+            <button onclick="appendchar('-')" style="color: rgb(255, 136, 0);"><i class="fa-solid fa-minus"></i></button>
+            
+            <button onclick="appendchar('3.14')" style="font-size: 30px;">pie</button>
+            <button onclick="appendchar('1')">1</button>
+            <button onclick="appendchar('2')">2</button>
+            <button onclick="appendchar('3')">3</button>
+            <button onclick="appendchar('+')" style="color: rgb(255, 136, 0);"><i class="fa-solid fa-plus"></i></button>
+
+            <button onclick="appendchar('00')" style="font-size: 30px;">00</button>
+            <button onclick="appendchar('2.48')">e</button>
+            <button onclick="appendchar('0')">0</button>
+            <button onclick="appendchar('.')">.</button>
+            <!-- <button onclick="calculate()" id="equal" style="color: rgb(255, 136, 0);">=</button> -->
+            <button  id="equal" style="color: rgb(255, 136, 0);">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
